@@ -1,7 +1,7 @@
 {
   "name": "commit_issue_commemter",
   "version": "0.0.1",
-  "description": "A GitHub Action that comments on issues from commit messages.",
+  "description": "A GitHub Action to comment on issues from commit messages.",
   "engines": {
     "node": ">= 8.12.0"
   },
