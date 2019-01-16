@@ -1,7 +1,7 @@
 FROM node:8-slim
 
-LABEL "com.github.actions.name"="Commit Issue Commenter"
-LABEL "com.github.actions.description"="Comment on issues from commit messages."
+LABEL "com.github.actions.name"="Comment on Issue from Commit"
+LABEL "com.github.actions.description"="Comment on issues from commit messages"
 LABEL "com.github.actions.icon"="mic"
 LABEL "com.github.actions.color"="green"
 

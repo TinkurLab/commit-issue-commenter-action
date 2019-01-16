@@ -1,4 +1,4 @@
-# 💬 Commit Issue Commenter - GitHub Action
+# 💬 Comment on Issue from Commit - GitHub Action
 
 A [GitHub Action](https://github.com/features/actions) that helps your team communicate and collaborate before you open a pull request.
 
