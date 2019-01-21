@@ -8,11 +8,11 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "test": "GITHUB_TOKEN='00000' GITHUB_REPOSITORY='waffleio/waffle.io' GITHUB_EVENT_PATH='./tests/fixtures/actionTrigger.json' jest"
+    "test": "GITHUB_TOKEN='00000' GITHUB_REPOSITORY='adamzolyak/actions-playground' GITHUB_EVENT_PATH='./tests/fixtures/actionTrigger.json' jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/waffleio/gh-actions.git"
+    "url": "git+https://github.com/adamzolyak/commit-issue-commenter-action.git"
   },
   "keywords": [
     "github",
@@ -22,9 +22,9 @@
   "author": "Adam Zolyak",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/waffleio/gh-actions/issues"
+    "url": "https://github.com/adamzolyak/commit-issue-commenter-action/issues"
   },
-  "homepage": "https://waffleio/gh-actions/",
+  "homepage": "https://www.tinkurlab.com",
   "dependencies": {
     "@octokit/rest": "^15.15.1"
   },
