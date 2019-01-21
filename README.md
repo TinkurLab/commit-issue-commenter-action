@@ -8,6 +8,17 @@ This GitHub Action runs when an [`push` event webhook](https://developer.github.
 
 Since GitHub Actions currently only support actions within the same repo, this action currently only supports comments in on issues and commit in the same repo.
 
+## Examples
+
+Example of issue before work has started:
+![GitHub Logo](./docs/issue.png)
+
+Example of creating a branch referencing issue #24 and adding a comment in the commit message:
+![GitHub Logo](./docs/branchwcomment.png)
+
+Example of issue with comment from commit:
+![GitHub Logo](./docs/issuewcomment.png)
+
 ## Installation
 
 To use this GitHub Action, you must have access to [GitHub Actions](https://github.com/features/actions). GitHub Actions are currently only available in private beta (you must [apply for access](https://github.com/features/actions)) and only work in private repos.
@@ -30,17 +41,6 @@ action "Comment From Commit" {
 ```
 
 3. Whenever you push changes to GitHub, the action will run!
-
-## Examples
-
-Example of issue before work has started:
-![GitHub Logo](./docs/issue.png)
-
-Example of creating a branch referencing issue #24 and adding a comment in the commit message:
-![GitHub Logo](./docs/branchwcomment.png)
-
-Example of issue with comment from commit:
-![GitHub Logo](./docs/issuewcomment.png)
 
 ## Contributing
 
