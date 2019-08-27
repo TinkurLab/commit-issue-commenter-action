@@ -29,7 +29,7 @@ export GITHUB_TOKEN="12345"
 export GITHUB_REPOSITORY="adamzolyak/actions-playground"
 export GITHUB_EVENT_PATH="/commit-issue-commenter-action/tests/fixtures/actionTrigger.json"
 
-node index.js
+node app.js
 ```
 
 3. modify contents of [/tests/fixtures/actionTrigger.json](./tests/fixtures/actionTrigger.json) as needed for test data
