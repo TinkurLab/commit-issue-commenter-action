@@ -6,7 +6,7 @@
   "deleted": false,
   "forced": false,
   "base_ref": null,
-  "compare": "https://github.com/adamzolyak/actions-playground/compare/dd6b6df05ce7...4df31bc85620",
+  "compare": "https://github.com/tinkurlab/actions-playground/compare/dd6b6df05ce7...4df31bc85620",
   "commits": [
     {
       "id": "4df31bc856208019b09a2f1b5d8bc055a819fdc8",
@@ -14,26 +14,20 @@
       "distinct": true,
       "message": "pushing more code #comment let my product owner know @azolyak",
       "timestamp": "2018-11-13T08:48:39-07:00",
-      "url": "https://github.com/adamzolyak/actions-playground/commit/4df31bc856208019b09a2f1b5d8bc055a819fdc8",
+      "url": "https://github.com/tinkurlab/actions-playground/commit/4df31bc856208019b09a2f1b5d8bc055a819fdc8",
       "author": {
         "name": "Adam Zolyak",
         "email": "adam.zolyak@gmail.com",
-        "username": "adamzolyak"
+        "username": "tinkurlab"
       },
       "committer": {
         "name": "GitHub",
         "email": "noreply@github.com",
         "username": "web-flow"
       },
-      "added": [
-
-      ],
-      "removed": [
-
-      ],
-      "modified": [
-        "code1.js"
-      ]
+      "added": [],
+      "removed": [],
+      "modified": ["code1.js"]
     },
     {
       "id": "4df31bc856208019b09a2f1b5d8bc055a819fdc8",
@@ -41,26 +35,20 @@
       "distinct": true,
       "message": "pushing more code #comment also stuff happened",
       "timestamp": "2018-11-13T08:48:39-07:00",
-      "url": "https://github.com/adamzolyak/actions-playground/commit/4df31bc856208019b09a2f1b5d8bc055a819fdc8",
+      "url": "https://github.com/tinkurlab/actions-playground/commit/4df31bc856208019b09a2f1b5d8bc055a819fdc8",
       "author": {
         "name": "Adam Zolyak",
         "email": "adam.zolyak@gmail.com",
-        "username": "adamzolyak"
+        "username": "tinkurlab"
       },
       "committer": {
         "name": "GitHub",
         "email": "noreply@github.com",
         "username": "web-flow"
       },
-      "added": [
-
-      ],
-      "removed": [
-
-      ],
-      "modified": [
-        "code1.js"
-      ]
+      "added": [],
+      "removed": [],
+      "modified": ["code1.js"]
     }
   ],
   "head_commit": {
@@ -69,102 +57,96 @@
     "distinct": true,
     "message": "title comments\n\nbody comments",
     "timestamp": "2018-11-13T08:48:39-07:00",
-    "url": "https://github.com/adamzolyak/actions-playground/commit/4df31bc856208019b09a2f1b5d8bc055a819fdc8",
+    "url": "https://github.com/tinkurlab/actions-playground/commit/4df31bc856208019b09a2f1b5d8bc055a819fdc8",
     "author": {
       "name": "Adam Zolyak",
       "email": "adam.zolyak@gmail.com",
-      "username": "adamzolyak"
+      "username": "tinkurlab"
     },
     "committer": {
       "name": "GitHub",
       "email": "noreply@github.com",
       "username": "web-flow"
     },
-    "added": [
-
-    ],
-    "removed": [
-
-    ],
-    "modified": [
-      "code1.js"
-    ]
+    "added": [],
+    "removed": [],
+    "modified": ["code1.js"]
   },
   "repository": {
     "id": 154543050,
     "node_id": "MDEwOlJlcG9zaXRvcnkxNTQ1NDMwNTA=",
     "name": "actions-playground",
-    "full_name": "adamzolyak/actions-playground",
+    "full_name": "tinkurlab/actions-playground",
     "private": true,
     "owner": {
-      "name": "adamzolyak",
+      "name": "tinkurlab",
       "email": "adam.zolyak@gmail.com",
-      "login": "adamzolyak",
+      "login": "tinkurlab",
       "id": 5940516,
       "node_id": "MDQ6VXNlcjU5NDA1MTY=",
       "avatar_url": "https://avatars1.githubusercontent.com/u/5940516?v=4",
       "gravatar_id": "",
-      "url": "https://api.github.com/users/adamzolyak",
-      "html_url": "https://github.com/adamzolyak",
-      "followers_url": "https://api.github.com/users/adamzolyak/followers",
-      "following_url": "https://api.github.com/users/adamzolyak/following{/other_user}",
-      "gists_url": "https://api.github.com/users/adamzolyak/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/adamzolyak/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/adamzolyak/subscriptions",
-      "organizations_url": "https://api.github.com/users/adamzolyak/orgs",
-      "repos_url": "https://api.github.com/users/adamzolyak/repos",
-      "events_url": "https://api.github.com/users/adamzolyak/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/adamzolyak/received_events",
+      "url": "https://api.github.com/users/tinkurlab",
+      "html_url": "https://github.com/tinkurlab",
+      "followers_url": "https://api.github.com/users/tinkurlab/followers",
+      "following_url": "https://api.github.com/users/tinkurlab/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tinkurlab/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tinkurlab/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tinkurlab/subscriptions",
+      "organizations_url": "https://api.github.com/users/tinkurlab/orgs",
+      "repos_url": "https://api.github.com/users/tinkurlab/repos",
+      "events_url": "https://api.github.com/users/tinkurlab/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tinkurlab/received_events",
       "type": "User",
       "site_admin": false
     },
-    "html_url": "https://github.com/adamzolyak/actions-playground",
+    "html_url": "https://github.com/tinkurlab/actions-playground",
     "description": "Playground for GitHub Actions",
     "fork": false,
-    "url": "https://github.com/adamzolyak/actions-playground",
-    "forks_url": "https://api.github.com/repos/adamzolyak/actions-playground/forks",
-    "keys_url": "https://api.github.com/repos/adamzolyak/actions-playground/keys{/key_id}",
-    "collaborators_url": "https://api.github.com/repos/adamzolyak/actions-playground/collaborators{/collaborator}",
-    "teams_url": "https://api.github.com/repos/adamzolyak/actions-playground/teams",
-    "hooks_url": "https://api.github.com/repos/adamzolyak/actions-playground/hooks",
-    "issue_events_url": "https://api.github.com/repos/adamzolyak/actions-playground/issues/events{/number}",
-    "events_url": "https://api.github.com/repos/adamzolyak/actions-playground/events",
-    "assignees_url": "https://api.github.com/repos/adamzolyak/actions-playground/assignees{/user}",
-    "branches_url": "https://api.github.com/repos/adamzolyak/actions-playground/branches{/branch}",
-    "tags_url": "https://api.github.com/repos/adamzolyak/actions-playground/tags",
-    "blobs_url": "https://api.github.com/repos/adamzolyak/actions-playground/git/blobs{/sha}",
-    "git_tags_url": "https://api.github.com/repos/adamzolyak/actions-playground/git/tags{/sha}",
-    "git_refs_url": "https://api.github.com/repos/adamzolyak/actions-playground/git/refs{/sha}",
-    "trees_url": "https://api.github.com/repos/adamzolyak/actions-playground/git/trees{/sha}",
-    "statuses_url": "https://api.github.com/repos/adamzolyak/actions-playground/statuses/{sha}",
-    "languages_url": "https://api.github.com/repos/adamzolyak/actions-playground/languages",
-    "stargazers_url": "https://api.github.com/repos/adamzolyak/actions-playground/stargazers",
-    "contributors_url": "https://api.github.com/repos/adamzolyak/actions-playground/contributors",
-    "subscribers_url": "https://api.github.com/repos/adamzolyak/actions-playground/subscribers",
-    "subscription_url": "https://api.github.com/repos/adamzolyak/actions-playground/subscription",
-    "commits_url": "https://api.github.com/repos/adamzolyak/actions-playground/commits{/sha}",
-    "git_commits_url": "https://api.github.com/repos/adamzolyak/actions-playground/git/commits{/sha}",
-    "comments_url": "https://api.github.com/repos/adamzolyak/actions-playground/comments{/number}",
-    "issue_comment_url": "https://api.github.com/repos/adamzolyak/actions-playground/issues/comments{/number}",
-    "contents_url": "https://api.github.com/repos/adamzolyak/actions-playground/contents/{+path}",
-    "compare_url": "https://api.github.com/repos/adamzolyak/actions-playground/compare/{base}...{head}",
-    "merges_url": "https://api.github.com/repos/adamzolyak/actions-playground/merges",
-    "archive_url": "https://api.github.com/repos/adamzolyak/actions-playground/{archive_format}{/ref}",
-    "downloads_url": "https://api.github.com/repos/adamzolyak/actions-playground/downloads",
-    "issues_url": "https://api.github.com/repos/adamzolyak/actions-playground/issues{/number}",
-    "pulls_url": "https://api.github.com/repos/adamzolyak/actions-playground/pulls{/number}",
-    "milestones_url": "https://api.github.com/repos/adamzolyak/actions-playground/milestones{/number}",
-    "notifications_url": "https://api.github.com/repos/adamzolyak/actions-playground/notifications{?since,all,participating}",
-    "labels_url": "https://api.github.com/repos/adamzolyak/actions-playground/labels{/name}",
-    "releases_url": "https://api.github.com/repos/adamzolyak/actions-playground/releases{/id}",
-    "deployments_url": "https://api.github.com/repos/adamzolyak/actions-playground/deployments",
+    "url": "https://github.com/tinkurlab/actions-playground",
+    "forks_url": "https://api.github.com/repos/tinkurlab/actions-playground/forks",
+    "keys_url": "https://api.github.com/repos/tinkurlab/actions-playground/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/tinkurlab/actions-playground/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/tinkurlab/actions-playground/teams",
+    "hooks_url": "https://api.github.com/repos/tinkurlab/actions-playground/hooks",
+    "issue_events_url": "https://api.github.com/repos/tinkurlab/actions-playground/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/tinkurlab/actions-playground/events",
+    "assignees_url": "https://api.github.com/repos/tinkurlab/actions-playground/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/tinkurlab/actions-playground/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/tinkurlab/actions-playground/tags",
+    "blobs_url": "https://api.github.com/repos/tinkurlab/actions-playground/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/tinkurlab/actions-playground/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/tinkurlab/actions-playground/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/tinkurlab/actions-playground/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/tinkurlab/actions-playground/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/tinkurlab/actions-playground/languages",
+    "stargazers_url": "https://api.github.com/repos/tinkurlab/actions-playground/stargazers",
+    "contributors_url": "https://api.github.com/repos/tinkurlab/actions-playground/contributors",
+    "subscribers_url": "https://api.github.com/repos/tinkurlab/actions-playground/subscribers",
+    "subscription_url": "https://api.github.com/repos/tinkurlab/actions-playground/subscription",
+    "commits_url": "https://api.github.com/repos/tinkurlab/actions-playground/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/tinkurlab/actions-playground/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/tinkurlab/actions-playground/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/tinkurlab/actions-playground/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/tinkurlab/actions-playground/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/tinkurlab/actions-playground/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/tinkurlab/actions-playground/merges",
+    "archive_url": "https://api.github.com/repos/tinkurlab/actions-playground/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/tinkurlab/actions-playground/downloads",
+    "issues_url": "https://api.github.com/repos/tinkurlab/actions-playground/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/tinkurlab/actions-playground/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/tinkurlab/actions-playground/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/tinkurlab/actions-playground/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/tinkurlab/actions-playground/labels{/name}",
+    "releases_url": "https://api.github.com/repos/tinkurlab/actions-playground/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/tinkurlab/actions-playground/deployments",
     "created_at": 1540402928,
     "updated_at": "2018-11-12T21:43:38Z",
     "pushed_at": 1542124119,
-    "git_url": "git://github.com/adamzolyak/actions-playground.git",
-    "ssh_url": "git@github.com:adamzolyak/actions-playground.git",
-    "clone_url": "https://github.com/adamzolyak/actions-playground.git",
-    "svn_url": "https://github.com/adamzolyak/actions-playground",
+    "git_url": "git://github.com/tinkurlab/actions-playground.git",
+    "ssh_url": "git@github.com:tinkurlab/actions-playground.git",
+    "clone_url": "https://github.com/tinkurlab/actions-playground.git",
+    "svn_url": "https://github.com/tinkurlab/actions-playground",
     "homepage": null,
     "size": 31,
     "stargazers_count": 0,
@@ -188,26 +170,26 @@
     "master_branch": "master"
   },
   "pusher": {
-    "name": "adamzolyak",
+    "name": "tinkurlab",
     "email": "adam.zolyak@gmail.com"
   },
   "sender": {
-    "login": "adamzolyak",
+    "login": "tinkurlab",
     "id": 5940516,
     "node_id": "MDQ6VXNlcjU5NDA1MTY=",
     "avatar_url": "https://avatars1.githubusercontent.com/u/5940516?v=4",
     "gravatar_id": "",
-    "url": "https://api.github.com/users/adamzolyak",
-    "html_url": "https://github.com/adamzolyak",
-    "followers_url": "https://api.github.com/users/adamzolyak/followers",
-    "following_url": "https://api.github.com/users/adamzolyak/following{/other_user}",
-    "gists_url": "https://api.github.com/users/adamzolyak/gists{/gist_id}",
-    "starred_url": "https://api.github.com/users/adamzolyak/starred{/owner}{/repo}",
-    "subscriptions_url": "https://api.github.com/users/adamzolyak/subscriptions",
-    "organizations_url": "https://api.github.com/users/adamzolyak/orgs",
-    "repos_url": "https://api.github.com/users/adamzolyak/repos",
-    "events_url": "https://api.github.com/users/adamzolyak/events{/privacy}",
-    "received_events_url": "https://api.github.com/users/adamzolyak/received_events",
+    "url": "https://api.github.com/users/tinkurlab",
+    "html_url": "https://github.com/tinkurlab",
+    "followers_url": "https://api.github.com/users/tinkurlab/followers",
+    "following_url": "https://api.github.com/users/tinkurlab/following{/other_user}",
+    "gists_url": "https://api.github.com/users/tinkurlab/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/tinkurlab/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/tinkurlab/subscriptions",
+    "organizations_url": "https://api.github.com/users/tinkurlab/orgs",
+    "repos_url": "https://api.github.com/users/tinkurlab/repos",
+    "events_url": "https://api.github.com/users/tinkurlab/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/tinkurlab/received_events",
     "type": "User",
     "site_admin": false
   }

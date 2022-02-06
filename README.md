@@ -38,7 +38,7 @@ jobs:
     name: Comment From Commit
     runs-on: ubuntu-latest
     steps:
-      - uses: adamzolyak/commit-issue-commenter-action@master
+      - uses: tinkurlab/commit-issue-commenter-action@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```

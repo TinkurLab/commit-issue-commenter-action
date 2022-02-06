@@ -8,11 +8,11 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "test": "GITHUB_TOKEN='00000' GITHUB_REPOSITORY='adamzolyak/actions-playground' GITHUB_EVENT_PATH='./tests/fixtures/actionTrigger.json' jest"
+    "test": "GITHUB_TOKEN='00000' GITHUB_REPOSITORY='tinkurlab/actions-playground' GITHUB_EVENT_PATH='./tests/fixtures/actionTrigger.json' jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adamzolyak/commit-issue-commenter-action.git"
+    "url": "git+https://github.com/tinkurlab/commit-issue-commenter-action.git"
   },
   "keywords": [
     "github",
@@ -22,7 +22,7 @@
   "author": "Adam Zolyak",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/adamzolyak/commit-issue-commenter-action/issues"
+    "url": "https://github.com/tinkurlab/commit-issue-commenter-action/issues"
   },
   "homepage": "https://www.tinkurlab.com",
   "dependencies": {

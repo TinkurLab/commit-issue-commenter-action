@@ -6,14 +6,14 @@ octokit.authenticate = jest.fn()
 
 describe('getOwner', () => {
   it('should return owner when passed GITHUB_REPOSITORY env variable', () => {
-    const result = helpers.getOwner('adamzolyak/actions-playground')
-    expect(result).toBe('adamzolyak')
+    const result = helpers.getOwner('tinkurlab/actions-playground')
+    expect(result).toBe('tinkurlab')
   })
 })
 
 describe('getRepo', () => {
   it('should return repo when passed GITHUB_REPOSITORY env variable', () => {
-    const result = helpers.getRepo('adamzolyak/actions-playground')
+    const result = helpers.getRepo('tinkurlab/actions-playground')
     expect(result).toBe('actions-playground')
   })
 })
@@ -41,9 +41,9 @@ describe('checkForCommitActions', () => {
 
   it('should return false if commit does NOT include a comment', async () => {
     const commitMessage =
-      'added initial ui #comment fyi @adamzolyak you might want to check this out'
+      'added initial ui #comment fyi @tinkurlab you might want to check this out'
     const result = helpers.checkForCommitActions(commitMessage)
-    expect(result).toBe('fyi @adamzolyak you might want to check this out')
+    expect(result).toBe('fyi @tinkurlab you might want to check this out')
   })
 })
 
@@ -51,20 +51,18 @@ describe('addComment', () => {
   it('should reopen the specified issue', async () => {
     let octokit = {
       issues: {
-        createComment: jest.fn().mockResolvedValue({ something: 'something' })
-      }
+        createComment: jest.fn().mockResolvedValue({ something: 'something' }),
+      },
     }
 
     const result = await helpers.addComment(
       octokit,
-      'adamzolyak',
+      'tinkurlab',
       'actions-playground',
       '1',
       'this is a comment'
     )
     expect(octokit.issues.createComment).toHaveBeenCalledTimes(1)
-    expect(octokit.issues.createComment.mock.calls[0][0].body).toMatch(
-      /this is a comment/
-    )
+    expect(octokit.issues.createComment.mock.calls[0][0].body).toMatch(/this is a comment/)
   })
 })
