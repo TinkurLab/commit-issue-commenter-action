@@ -3,16 +3,16 @@
   "version": "0.0.1",
   "description": "A GitHub Action to comment on issues from commit messages.",
   "engines": {
-    "node": ">= 8.12.0"
+    "node": ">= 12.22.6"
   },
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "test": "GITHUB_TOKEN='00000' GITHUB_REPOSITORY='adamzolyak/actions-playground' GITHUB_EVENT_PATH='./tests/fixtures/actionTrigger.json' jest"
+    "test": "GITHUB_TOKEN='00000' GITHUB_REPOSITORY='tinkurlab/actions-playground' GITHUB_EVENT_PATH='./tests/fixtures/actionTrigger.json' jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adamzolyak/commit-issue-commenter-action.git"
+    "url": "git+https://github.com/tinkurlab/commit-issue-commenter-action.git"
   },
   "keywords": [
     "github",
@@ -22,13 +22,13 @@
   "author": "Adam Zolyak",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/adamzolyak/commit-issue-commenter-action/issues"
+    "url": "https://github.com/tinkurlab/commit-issue-commenter-action/issues"
   },
   "homepage": "https://www.tinkurlab.com",
   "dependencies": {
     "@octokit/rest": "^16.28.7"
   },
   "devDependencies": {
-    "jest": "^23.6.0"
+    "jest": "^27.5.0"
   }
 }

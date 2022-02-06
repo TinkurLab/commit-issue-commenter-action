@@ -1,11 +1,11 @@
-FROM node:8-slim
+FROM node:14
 
 LABEL "com.github.actions.name"="Comment on Issue from Commit"
 LABEL "com.github.actions.description"="Comment on issues from commit messages"
 LABEL "com.github.actions.icon"="mic"
 LABEL "com.github.actions.color"="green"
 
-LABEL "repository"="http://github.com/adamzolyak/commit-issue-commenter-action"
+LABEL "repository"="http://github.com/tinkurlab/commit-issue-commenter-action"
 LABEL "homepage"="http://www.tinkurlab.com"
 LABEL "maintainer"="Adam Zolyak <adam@tinkurlab.com>"
 
