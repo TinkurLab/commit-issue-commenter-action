@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "A GitHub Action to comment on issues from commit messages.",
   "engines": {
-    "node": ">= 8.12.0"
+    "node": ">= 12.22.6"
   },
   "main": "app.js",
   "scripts": {
