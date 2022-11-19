@@ -26,7 +26,8 @@
   },
   "homepage": "https://www.tinkurlab.com",
   "dependencies": {
-    "@octokit/rest": "^16.28.7"
+    "@octokit/rest": "^16.28.7",
+    "dotenv": "^16.0.3"
   },
   "devDependencies": {
     "jest": "^27.5.0"
