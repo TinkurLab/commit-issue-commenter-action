@@ -1,4 +1,4 @@
-FROM node:14
+FROM node:16
 
 LABEL "com.github.actions.name"="Comment on Issue from Commit"
 LABEL "com.github.actions.description"="Comment on issues from commit messages"

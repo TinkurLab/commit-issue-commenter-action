@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "A GitHub Action to comment on issues from commit messages.",
   "engines": {
-    "node": ">= 12.22.6"
+    "node": "^16.16.0"
   },
   "main": "app.js",
   "scripts": {
@@ -26,7 +26,7 @@
   },
   "homepage": "https://www.tinkurlab.com",
   "dependencies": {
-    "@octokit/rest": "^16.28.7",
+    "@octokit/rest": "^19.0.5",
     "dotenv": "^16.0.3"
   },
   "devDependencies": {

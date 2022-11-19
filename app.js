@@ -4,9 +4,9 @@ const helpers = require('./helpers')
 
 //require octokit rest.js
 //more info at https://github.com/octokit/rest.js
-const Octokit = require('@octokit/rest')
+const { Octokit } = require('@octokit/rest')
 const octokit = new Octokit({
-  auth: `token ${process.env.GITHUB_TOKEN}`
+  auth: `token ${process.env.GITHUB_TOKEN}`,
 })
 
 //set eventOwner and eventRepo based on action's env variables
@@ -16,9 +16,7 @@ const eventRepo = helpers.getRepo(eventOwnerAndRepo)
 
 async function commitChecker() {
   //read contents of action's event.json
-  const eventData = await helpers.readFilePromise(
-    '..' + process.env.GITHUB_EVENT_PATH
-  )
+  const eventData = await helpers.readFilePromise('..' + process.env.GITHUB_EVENT_PATH)
   const eventJSON = JSON.parse(eventData)
 
   //check if branch name starts with an issue number
@@ -26,7 +24,7 @@ async function commitChecker() {
 
   if (branchIssueNumber) {
     //for each commit, check commit message for comment
-    eventJSON.commits.forEach(commit => {
+    eventJSON.commits.forEach((commit) => {
       const commitComment = helpers.checkForCommitActions(commit.message)
 
       //if comment in commit message, add comment to related issue
@@ -35,13 +33,7 @@ async function commitChecker() {
           commit.author.username
         } in [${commit.id.substring(0, 6)}](${commit.url})*`
 
-        helpers.addComment(
-          octokit,
-          eventOwner,
-          eventRepo,
-          branchIssueNumber,
-          comment
-        )
+        helpers.addComment(octokit, eventOwner, eventRepo, branchIssueNumber, comment)
       }
     })
   }
