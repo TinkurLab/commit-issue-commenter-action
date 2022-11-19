@@ -51,4 +51,6 @@ If you have suggestions for how this GitHub Action could be improved, or want to
 
 ## License
 
-[ISC](LICENSE) © 2021 Adam Zolyak <adam@tinkurlab.com> (www.tinkurlab.com)
+[ISC](LICENSE) © 2022 Adam Zolyak <adam@tinkurlab.com> (www.tinkurlab.com)
+
+![analytics](https://grabify.link/HBSUPY)

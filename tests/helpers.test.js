@@ -1,5 +1,5 @@
 const helpers = require('../helpers')
-let octokit = require('@octokit/rest')()
+const { Octokit } = require('@octokit/rest')
 
 octokit = jest.fn()
 octokit.authenticate = jest.fn()

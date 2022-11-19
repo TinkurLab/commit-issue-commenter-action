@@ -1,6 +1,0 @@
-
-export GITHUB_TOKEN="12345"
-export GITHUB_REPOSITORY="tinkurlab/actions-playground"
-export GITHUB_EVENT_PATH="/commit-issue-commenter-action/tests/fixtures/actionTrigger.json"
-
-node app.js
