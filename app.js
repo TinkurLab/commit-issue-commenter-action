@@ -15,27 +15,34 @@ const eventOwner = helpers.getOwner(eventOwnerAndRepo)
 const eventRepo = helpers.getRepo(eventOwnerAndRepo)
 
 async function commitChecker() {
-  //read contents of action's event.json
-  const eventData = await helpers.readFilePromise('..' + process.env.GITHUB_EVENT_PATH)
-  const eventJSON = JSON.parse(eventData)
+  try {
+    //read contents of action's event.json
+    const eventData = await helpers.readFilePromise('..' + process.env.GITHUB_EVENT_PATH)
 
-  //check if branch name starts with an issue number
-  const branchIssueNumber = helpers.getIssueFromBranch(eventJSON.ref)
+    if (eventData) {
+      const eventJSON = JSON.parse(eventData)
 
-  if (branchIssueNumber) {
-    //for each commit, check commit message for comment
-    eventJSON.commits.forEach((commit) => {
-      const commitComment = helpers.checkForCommitActions(commit.message)
+      //check if branch name starts with an issue number
+      const branchIssueNumber = helpers.getIssueFromBranch(eventJSON.ref)
 
-      //if comment in commit message, add comment to related issue
-      if (commitComment) {
-        const comment = `${commitComment} *from @${
-          commit.author.username
-        } in [${commit.id.substring(0, 6)}](${commit.url})*`
+      if (branchIssueNumber) {
+        //for each commit, check commit message for comment
+        eventJSON.commits.forEach((commit) => {
+          const commitComment = helpers.checkForCommitActions(commit.message)
 
-        helpers.addComment(octokit, eventOwner, eventRepo, branchIssueNumber, comment)
+          //if comment in commit message, add comment to related issue
+          if (commitComment) {
+            const comment = `${commitComment} *from @${
+              commit.author.username
+            } in [${commit.id.substring(0, 6)}](${commit.url})*`
+
+            helpers.addComment(octokit, eventOwner, eventRepo, branchIssueNumber, comment)
+          }
+        })
       }
-    })
+    }
+  } catch (error) {
+    console.log(error)
   }
 }
 
